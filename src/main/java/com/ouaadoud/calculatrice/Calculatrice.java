@@ -33,8 +33,13 @@ public class Calculatrice {
     @WebMethod
     public double power (double a, double b) {
         return Math.pow(a, b);
-    } @WebMethod
+    }
+    @WebMethod
     public double sine (double a) {
         return Math.sin(a);
+    }
+    @WebMethod
+    public double coSine (double a) {
+        return Math.cos(a);
     }
 }
